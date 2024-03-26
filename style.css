@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: #fdf4fa;
+}
+
+a {
+   color:#0f0e0e;
+
+}
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    font: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.Icone-produtos {
+    height: 30px;
+    width:  30px;
+    fill: #171717;
+}
+
+.botao-entrar {
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight:700;
+    border-radius: 4px;
+    background-color:#1a73e8;
+    color: #fff;
+    padding: 10px 30px;
+    flex-direction: column;
+ }
+
+footer {
+background-color: #463d4e;
+color: #eee0e0;
+margin-top: 12%;
+}
+
+input {
+    text-align: center;
+    height:25px;
+    width: 800px;
+    margin-top: 1%;
+}
+
+#cabecalho ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin: 1%;
+}
+
+.caixa-rodape {
+    padding: 15px 30px;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    flex-direction: column;
+
+}
+button {
+    margin: 5px;
+    width: 340px;
+    height: 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust:50px;
+
+}
